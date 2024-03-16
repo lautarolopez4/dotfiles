@@ -1,9 +1,7 @@
 /*
  *
- * Author  : Aditya Shakya
- * Mail    : adi1090x@gmail.com
- * Github  : @adi1090x
- * Twitter : @adi1090x
+ * Author  : Lautaro Lopez
+ * Mail    : lautarolopez4@protonmail.com
  *
  * MINIMAL
  *
@@ -48,7 +46,7 @@ configuration {
 
 window {
     border: 						4px;
-    border-color: 					@red;
+    border-color: 					#2E3440;
     padding: 						15;
     width: 						24%;
     border-radius: 					16px;
@@ -86,14 +84,14 @@ inputbar {
 
 mainbox {
     border: 						0px;
-    border-color: 					@red;    
+    border-color: 					#E5E9F0;    
     padding: 						6;
 }
 
 listview {
     fixed-height: 					0;
     border: 						0px;
-    border-color: 					@red;
+    border-color: 					#3B4252;
     spacing: 						4px;
     scrollbar: 						false;
     padding: 						5px 5px 0px 5px;
@@ -109,10 +107,10 @@ element normal.normal {
 }
 element normal.urgent {
     background-color: 				@bg;
-    text-color:       				@red;
+    text-color:       				#BF616A;
 }
 element normal.active {
-    background-color: 				@green;
+    background-color: 				#A3BE8C;
     text-color:       				@bg;
 }
 element selected.normal {
@@ -121,7 +119,7 @@ element selected.normal {
 }
 element selected.urgent {
     background-color: 				@bg;
-    text-color:       				@red;
+    text-color:       				#BF616A;
 }
 element selected.active {
     background-color: 				@fg;
@@ -142,7 +140,7 @@ element alternate.active {
 
 sidebar {
     border:       					0px;
-    border-color: 					@red;
+    border-color: 					#E5E9F0;
     border-radius: 					0px;
 }
 
@@ -157,7 +155,7 @@ button {
 }
 
 button selected {
-    background-color:             	@red;
+    background-color:             	#BF616A;
     text-color: 					@bg;
     border-radius: 					6px;
 }
@@ -172,7 +170,7 @@ scrollbar {
 
 message {
     border: 						4px;
-    border-color: 					@red;
+    border-color: 					#3B4252;
     padding: 						1px;
 }
 
