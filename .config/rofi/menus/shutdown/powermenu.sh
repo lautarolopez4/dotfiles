@@ -24,8 +24,8 @@
 uptime=$(uptime -p | sed -e 's/up //g')
 
 #  Change rofi theme here
-rofi_theme="rofi -theme /home/frenzy/.config/rofi/menus/shutdown/powermenu.rasi"
-rofi_theme_2="rofi -theme /home/frenzy/.config/rofi/minimal.rasi"
+rofi_theme="rofi -theme /home/m1sh4p/.config/rofi/menus/shutdown/powermenu.rasi"
+rofi_theme_2="rofi -theme /home/m1sh4p/.config/rofi/minimal.rasi"
 
 # Whether to ask for user's confirmation
 enable_confirmation=true

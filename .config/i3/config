@@ -36,7 +36,7 @@ exec --no-startup-id setxkbmap -layout es -variant altgr-intl
 #####################################
 # BACKGROUND, NO MORE FEH HA HA HA! #
 #####################################
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/nord.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/nordic-mountain-wallpaper.jpg
 
 # In case you hate nitrogen cuz ur a suckless fanboy
 # exec_always --no-startup-id xwallpaper --output eDP1 --stretch ~/Pictures/Wallpapers/nord.jpg
@@ -45,7 +45,7 @@ exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/nord.jpg
 ######################
 # POLYBAR BOIIIIIIII #
 ######################
-exec_always --no-startup-id ~/.config/polybar/launcher.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 #####################
 # CONKY CONKY CONKY #
@@ -147,7 +147,7 @@ bindsym $mod+v split v
 ###########################
 
 # DMENU REPLACEMENT BECAUSE DMENU SUCKS AND IS UGLY PLEASE DON'T KILL ME
-bindsym $mod+d exec "rofi -no-lazy-grab -show drun -modi run,drun,window -theme /$HOME/.config/rofi/minimal.rasi"
+bindsym $mod+d exec "rofi -no-lazy-grab -show drun -modi run,drun,window -theme ~/.config/rofi/minimal.rasi"
 
 
 #######################################
