@@ -4,11 +4,13 @@ DOTFILES_DIR=$(pwd)
 
 ITEMS_TO_COPY=(
   ~/.zshrc
+  ~/.tmux.conf
   ~/.config/nvim
   ~/.p10k.zsh
   ~/.config/i3
   ~/.config/picom
   ~/.config/kitty
+  ~/bin/.local/scripts/
 )
 
 copy_item() {
