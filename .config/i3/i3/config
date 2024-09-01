@@ -62,7 +62,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # Wallpaper 
-exec_always feh --no-startup-idi --bg-max ~/Pictures/Wallpapers/sky.jpg
+exec_always feh --no-startup-idi --bg-max ~/Pictures/Wallpapers/macintosh.jpg
 
 # change focus
 bindsym $mod+j focus left

@@ -11,6 +11,7 @@ ITEMS_TO_COPY=(
   ~/.config/picom
   ~/.config/kitty
   ~/bin/.local/scripts/
+  ~/.config/.tmux
 )
 
 copy_item() {
